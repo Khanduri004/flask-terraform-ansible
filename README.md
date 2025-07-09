@@ -5,6 +5,22 @@
 This project demonstrates deploying a Flask app on AWS EC2 using Terraform, configuring the instance with Ansible, containerizing the app with Docker, 
 and automating the workflow using Jenkins.
 
+Structure :
+flask-terraform-ansible/
+├── app/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+├── ansible/
+│   ├── inventory.ini
+│   └── playbook.yml
+├── Jenkinsfile
+└── README.md
+
 ## Steps
 
 1. Push code to GitHub.
