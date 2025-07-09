@@ -11,7 +11,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/Khanduri004/terraform-ansible-aws-project.git'
+                 git branch: 'main', url: 'https://github.com/Khanduri004/terraform-ansible-aws-project.git'
             }
         }
 
